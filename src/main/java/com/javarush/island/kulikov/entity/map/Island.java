@@ -1,0 +1,10 @@
+package com.javarush.island.kulikov.entity.map;
+
+import lombok.Data;
+
+@Data
+public class Island {
+    private final int width;
+    private final int height;
+    private final Cell[][] cells;
+}
