@@ -5,6 +5,7 @@ import com.javarush.island.kulikov.entity.map.Cell;
 import com.javarush.island.kulikov.entity.map.Island;
 
 public class IslandInitializer {
+    // создаёт карту и заполняет её
 
     public Island createIsland(int width, int height) {
         return null;

@@ -1,4 +1,4 @@
-package com.javarush.island.kulikov.entity.organizm.animals;
+package com.javarush.island.kulikov.entity.organism;
 
 import com.javarush.island.kulikov.entity.map.Cell;
 import lombok.Getter;

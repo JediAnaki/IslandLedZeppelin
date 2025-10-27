@@ -1,6 +1,6 @@
 package com.javarush.island.kulikov.entity.map;
 
-import com.javarush.island.kulikov.entity.organizm.animals.Animal;
+import com.javarush.island.kulikov.entity.organism.Animal;
 import lombok.Data;
 
 import java.util.HashSet;
@@ -9,6 +9,7 @@ import java.util.Set;
 
 @Data
 public class Cell {
+    // карта (массив клеток)
     private final int x;
     private final int y;
     private final Map<Class<? extends Animal>, Set<Animal>> animals;
